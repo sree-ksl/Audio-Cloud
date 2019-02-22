@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		01684EA141E09629B2491A49 /* Pods-AudioCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARPOI/Pods-AudioCloud.release.xcconfig"; sourceTree = "<group>"; };
 		7BBB4CBCD73EBE356ED48F20 /* Pods_AudioCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8229AA8C22201BA60083CDCA /* ARPOI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPOI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A823231920E3EC53001A897B /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
 		A823231A20E3EC53001A897B /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
 		A823231B20E3EC53001A897B /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		A823232120E3EC53001A897B /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A823232220E3EC53001A897B /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 		A824E10720E2B03C00025F96 /* LocationTextAnnotationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTextAnnotationNode.swift; sourceTree = "<group>"; };
-		A83B553120D946E50018CA34 /* ARPOI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ARPOI.app; path = "/Users/sreek/swift_projects/Audio-Cloud/build/Debug-iphoneos/ARPOI.app"; sourceTree = "<absolute>"; };
 		A83B553420D946E50018CA34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A83B553620D946E50018CA34 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A83B553820D946E50018CA34 /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +111,7 @@
 				A83B553320D946E50018CA34 /* AudioCloud */,
 				A83E671420DA9D1F00A2CC69 /* Frameworks */,
 				03769C274D59C711ACDB7031 /* Pods */,
+				8229AA8C22201BA60083CDCA /* ARPOI.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,7 +165,7 @@
 			);
 			name = ARPOI;
 			productName = ARCapitals;
-			productReference = A83B553120D946E50018CA34 /* ARPOI.app */;
+			productReference = 8229AA8C22201BA60083CDCA /* ARPOI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +176,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Deemaze;
+				ORGANIZATIONNAME = ksl;
 				TargetAttributes = {
 					A83B553020D946E50018CA34 = {
 						CreatedOnToolsVersion = 10.0;
@@ -403,13 +404,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RRZGZXLYCL;
-				INFOPLIST_FILE = ARPOI/Info.plist;
+				DEVELOPMENT_TEAM = 5234JSYWM4;
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCloud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Deemaze.ARPOI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksl.AudioCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,13 +423,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RRZGZXLYCL;
-				INFOPLIST_FILE = ARPOI/Info.plist;
+				DEVELOPMENT_TEAM = 5234JSYWM4;
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCloud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Deemaze.ARPOI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksl.AudioCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
